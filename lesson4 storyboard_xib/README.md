@@ -59,7 +59,20 @@ NSBundle.mainBundle()是获取程序的主资源包，加载资源文件的地�
 
 loadNibNamed这个方法是加载一个Nib（xib）文件，第一个参数是指xib文件的名字。它返回一组view对象，这一组对象是xib文件中描述多个view UI。
 
+
 ###storyboard
+storyboard是多个viewcontroller被组织在一个文件来描述一套流程。
+
+先创建一个storyboard文件。
+
+![Lesson6](./resource/6.jpeg)
+![Lesson7](./resource/7.jpeg)
+
+直接创建出来的storyboard文件是空的，然后我们从右下角的控件库中拖两个viewcontroller到storyboard中。
+
+![Lesson8](./resource/8.jpeg)
+
+我们在第一个viewcontroller中添加一个按钮，然后跳转到第二个页面
 
 ##简单操作
 
